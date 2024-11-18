@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "League Spartan", serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.path-background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+main {
+    width: 60%;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    margin-bottom: 72px;
+}
+
+.main-title-description {
+    width: 445px;
+    margin-right: auto;
+}
+
+.main-title {
+    font-weight: 700;
+    margin: 0;
+    line-height: 48px;
+    font-size: 56px;
+    color: #512051;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+}
+
+.title-description {
+    color: #927B91;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.63px;
+    font-weight: 500;
+}
+
+.rating-stars {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rated-list {
+    display: block;
+    list-style: none;
+}
+
+.five-stars {
+    display: flex;
+    margin-right: 32px;
+}
+
+.five-stars img {
+    margin-right: 8px;
+}
+
+.star-five {
+    margin-right: 0;
+}
+
+.rated,
+.rated-BestTech {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    background-color: #F7F2F7;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #512051;
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 17px;
+}
+
+.rated-BestTech {
+    margin: 0;
+}
+
+.verified-buyers {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyer {
+    background-color: #512051;
+    border-radius: 8px;
+    padding: 40px 32px 36px 32px;
+    width: 31%;
+}
+
+.profile-buyer {
+    display: flex;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.profile-buyer img {
+    margin-right: 24px;
+}
+
+.name-buyer p {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+}
+
+span {
+    color: #EE69A4;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.profile-experience {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+}
