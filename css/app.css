@@ -104,6 +104,12 @@ body {
 }
 
 @media (max-width:768px) {
+
+    body {
+        padding-bottom: 72px;
+        padding-top: 72px;
+    }
+
     .main-wrapper {
         width: 90%;
         margin-top: auto;
@@ -114,6 +120,15 @@ body {
     .hero-container {
         flex-direction: column;
         margin-bottom: 40px;
+    }
+
+    .main-heading {
+        text-align: center;
+    }
+
+    .products-description {
+        margin-bottom: 32px;
+        text-align: center;
     }
 
     .user-cards {
