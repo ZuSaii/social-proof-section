@@ -57,6 +57,8 @@ body {
     background-color: #F7F2F7;
     border-radius: 8px;
     margin-bottom: 16px;
+    align-items: center;
+    display: flex;
     padding: 20px 72px 20px 32px;
 }
 
@@ -131,28 +133,65 @@ body {
         text-align: center;
     }
 
+    .rating-report {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    .rating-report span {
+        margin-top: 8px;
+        font-size: 20px;
+    }
+
+    .rating-reports {
+        width: 100%;
+        padding: 0;
+    }
+
+    .rating-report-info {
+        margin: 0;
+    }
+
     .user-cards {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
+    .user-name {
+        font-size: 20px;
+    }
+
+    .user-type {
+        font-size: 20px;
+    }
+
     .user-profile-picture {
         margin: 0;
+        margin-right: 24Px;
         margin-bottom: 16px;
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+    }
+
+    .user-testimonial {
+        font-size: 24px;
+        text-align: left;
     }
 
     .user-card-header {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
     }
 
     .user-card {
         width: 80%;
-        justify-content: center;
-        align-items: center;
+        
     }
 
 }
